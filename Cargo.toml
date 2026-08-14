@@ -31,26 +31,23 @@ critical-section = "1.2"
 fugit = "0.3"
 
 # Embassy dependencies (optional, enabled via "embassy" feature)
-embassy-executor = { version = "0.10", features = [
-    "platform-cortex-m",
-    "executor-thread",
-    "defmt",
-], optional = true }
-embassy-time = { version = "0.5", features = ["defmt"], optional = true }
-embassy-rp = { version = "0.10", features = [
-    "defmt",
-    "rp2040",
-    "time-driver",
-    "critical-section-impl",
-    "boot2-generic-03h",
-], optional = true }
-embassy-sync = { version = "0.8", features = ["defmt"], optional = true }
+# embassy-executor = { version = "0.10", features = [
+#     "platform-cortex-m",
+#     "executor-thread",
+#     "defmt",
+# ], optional = true }
+# embassy-time = { version = "0.5", features = ["defmt"], optional = true }
+# embassy-rp = { version = "0.10", features = [
+#     "defmt",
+#     "rp2040",
+#     "time-driver",
+#     "critical-section-impl",
+#     "boot2-generic-03h",
+# ], optional = true }
+# embassy-sync = { version = "0.8", features = ["defmt"], optional = true }
 
 [dev-dependencies]
 defmt-test = "0.4"
-
-[build-dependencies]
-nanomp3 = "0.1.1"
 
 [[test]]
 name = "example_test"

@@ -8,7 +8,6 @@
             "name": "probe_rs Server attach example",
             // "server": "host.docker.internal:50001",
             "server": "172.17.0.1:50001",
-            // "server": "0.0.0.0:50001",
             "speed": 4000,
             "chip": "RP2040",
             "flashingConfig": {
