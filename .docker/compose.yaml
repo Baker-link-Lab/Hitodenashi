@@ -1,0 +1,12 @@
+services:
+  hitodenashi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "ghcr.io/baker-link-lab/bakerlink-env:latest"
+    container_name: "hitodenashi-container"
+    volumes:
+      - "../:/hitodenashi"
+    working_dir: /hitodenashi
+    command: /bin/sh
+    tty: true
