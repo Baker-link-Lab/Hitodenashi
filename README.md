@@ -1,4 +1,4 @@
-# Hitodenashi ~Pear Alarm~
+# Hitodenashi \~Pear Alarm\~
 
 ![Hitodenashi logo](doc/img/image.png)
 
